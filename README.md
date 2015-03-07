@@ -14,3 +14,7 @@ Packages installed:
 * dj-database-url
 * dj-static
 * psycopg2 (only if PostgreSQL is installed.)
+
+
+Developed for the [Hello Web App](http://hellowebapp.com) book, which teaches
+beginner web app development using Python and Django.

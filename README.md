@@ -1,5 +1,7 @@
 # Deployment package for Hello Web App
 
+**Status:** In development.
+
 Making sure your local database is the same format as your production database
 is a highly recommended--however, it's a lot easier for beginning programmers to
 develop locally using a SQLite3 databse, but deploying on Heroku requires 
@@ -18,3 +20,7 @@ Packages installed:
 
 Developed for the [Hello Web App](http://hellowebapp.com) book, which teaches
 beginner web app development using Python and Django.
+
+## License
+
+This project is licensed under the MIT open source license.

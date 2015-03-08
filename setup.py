@@ -9,10 +9,10 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='hellowebapp-deploy-toolbelt',
+    name='hellowebapp-deploy',
     version='0.0.1',
     description="Packages needed to deploy to Heroku using Hello Web App's tutorial.",
-    url='https://github.com/limedaring/HelloWebApp-deploy-toolbelt',
+    url='https://github.com/hellowebapp/hellowebapp-deploy',
     author='Tracy Osborn',
     author_email='tracy@limedaring.com',
     license='MIT',
@@ -23,10 +23,9 @@ setup(
         'Programming Language :: Python :: 2.7',
         'License :: OSI Approved :: MIT License',
     ],
-    keywords='deployment heroku',
+    keywords='deployment heroku hellowebapp',
     packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
     install_requires = [
-        'django',
         'gunicorn',
         'dj-database-url',
         'dj-static',

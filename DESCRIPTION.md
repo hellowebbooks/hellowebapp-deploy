@@ -6,4 +6,4 @@ Requires Django. Installs these packages:
 * gunicorn
 * dj-database-url
 * dj-static
-* psycopg2 (not installed if PostgreSQL is not installed.)
+* whitenoise

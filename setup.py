@@ -25,5 +25,11 @@ setup(
     ],
     keywords='deployment heroku',
     packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
-    install_requires = ['django'],
+    install_requires = [
+        'django',
+        'gunicorn',
+        'dj-database-url',
+        'dj-static',
+        'whitenoise',
+    ],
 )

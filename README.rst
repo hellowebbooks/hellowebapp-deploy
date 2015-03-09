@@ -3,7 +3,7 @@ Deployment package for Hello Web App
 ====================================
 
 This package will install all the necessary packages for deploying a Django
-project on Heroku. Developed for the [Hello Web App](http://hellowebapp.com)
+project on Heroku. Developed for the `Hello Web App <http://hellowebapp.com>`_
 book, which teaches beginner web app development using Python and Django.
 
 Packages installed:

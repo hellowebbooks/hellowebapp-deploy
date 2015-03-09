@@ -13,6 +13,10 @@ Packages installed:
 - `dj-static <https://github.com/kennethreitz/dj-static>`_
 - `whitenoise <https://warehouse.python.org/project/whitenoise/>`_
 
+This package is similar to `django-toolbelt
+<https://pypi.python.org/pypi/django-toolbelt/0.0.1/>`_ but does not require
+psycopg2 as a dependency.
+
 License
 -------
 

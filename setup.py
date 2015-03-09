@@ -17,7 +17,6 @@ setup(
     author_email='tracy@limedaring.com',
     license='MIT',
     classifiers=[
-        'Development Status :: 3 - Alpha',
         'Topic :: Software Development :: Libraries :: Python Modules',
         'Intended Audience :: Developers',
         'Programming Language :: Python :: 2.7',

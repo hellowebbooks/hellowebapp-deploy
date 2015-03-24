@@ -10,7 +10,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='hellowebapp-deploy',
-    version='1.0.1',
+    version='1.0.2',
     description="Packages needed to deploy to Heroku using Hello Web App's tutorial.",
     url='https://github.com/hellowebapp/hellowebapp-deploy',
     author='Tracy Osborn',

@@ -10,23 +10,24 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='hellowebapp-deploy',
-    version='1.0.2',
+    version='1.0.3',
     description="Packages needed to deploy to Heroku using Hello Web App's tutorial.",
     url='https://github.com/hellowebapp/hellowebapp-deploy',
+    download_url='https://github.com/hellowebbooks/hellowebapp-deploy/archive/v1.0.3.tar.gz',
     author='Tracy Osborn',
     author_email='tracy@limedaring.com',
     license='MIT',
     classifiers=[
         'Topic :: Software Development :: Libraries :: Python Modules',
         'Intended Audience :: Developers',
-        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.6',
         'License :: OSI Approved :: MIT License',
     ],
     keywords='deployment heroku hellowebapp',
     packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
     install_requires = [
-        'waitress',
-        'dj-database-url',
+        'waitress==1.1.0',
+        'dj-database-url==0.5.0',
         'whitenoise==3.3.1',
     ],
 )

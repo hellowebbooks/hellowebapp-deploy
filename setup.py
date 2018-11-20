@@ -27,6 +27,6 @@ setup(
     install_requires = [
         'waitress',
         'dj-database-url',
-        'whitenoise',
+        'whitenoise==3.3.1',
     ],
 )

@@ -26,7 +26,7 @@ setup(
     keywords='deployment heroku hellowebapp',
     packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
     install_requires = [
-        'waitress==2.0.0',
+        'waitress==2.1.1',
         'dj-database-url==0.5.0',
         'whitenoise==5.2.0',
     ],
